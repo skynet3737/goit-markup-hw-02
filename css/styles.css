@@ -1,0 +1,217 @@
+:root {
+  --main-color: #757575;
+  --second-color: #212121;
+  --third-color: #2196f3;
+  --filter-color: #f5f4fa;
+  --btn: cursor;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+
+/* Логотип */
+.logo-web {
+  color: var(--third-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  color: #212121;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.nav 
+.link {
+  color: var(--second-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts 
+.link {
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.main-text {
+  color: #ffffff;
+  
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.main-text,
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+}
+
+/* Кнопка на главной странице */
+.main-text > button[type='button'] {
+  color: #ffffff;
+  background-color: var(--third-color);
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.87;
+}
+
+.subtitle {
+  color: var(--second-color);
+}
+
+.subject
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.subject
+p {
+  font-size: 14px;
+  line-height: 1.71;
+  
+  letter-spacing: 0.03em;
+}
+
+.caption
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.item h3 {
+  color: var(--second-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.item
+p {
+  line-height: 1.18;
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.footer-address 
+.link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  
+  letter-spacing: 0.03em;
+}
+
+.address a {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  
+  letter-spacing: 0.03em;
+}
+
+/* Кнопки в портфолио */
+.buttons 
+.btn {
+  color: var(--second-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.62;
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio h2 {
+  color: var(--second-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  
+  letter-spacing: 0.06em;
+}
+
+.portfolio p {
+  color: var(--main-color);
+  line-height: 1.87;
+  
+  letter-spacing: 0.03em;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--third-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--third-color);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.address a:hover,
+.address a:focus {
+  color: var(--third-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--third-color);
+}
+
+.footer-address .link:hover,
+.footer-address .link:focus {
+  color: var(--third-color);
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: var(--third-color);
+}
+
+.portfolio a:hover,
+.portfolio a:focus {
+  color: var(--third-color);
+}
