@@ -51,6 +51,11 @@ a {
   letter-spacing: 0.02em;
 }
 
+.nav
+.link.current {
+  color: var(--third-color);
+}
+
 .contacts 
 .link {
   color: inherit;
