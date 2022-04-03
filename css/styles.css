@@ -9,6 +9,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Логотип */
@@ -18,7 +25,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .logo-header {
@@ -27,7 +33,6 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .logo-footer {
@@ -36,14 +41,12 @@ body {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .nav 
 .link {
   color: var(--second-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -52,7 +55,6 @@ body {
 .link {
   color: inherit;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -61,8 +63,6 @@ body {
   color: #ffffff;
   
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 .main-text,
@@ -70,6 +70,8 @@ h1 {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 /* Кнопка на главной странице */
@@ -78,8 +80,10 @@ h1 {
   background-color: var(--third-color);
 
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .subtitle {
@@ -89,7 +93,6 @@ h1 {
 .subject
 .subtitle {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -97,10 +100,7 @@ h1 {
 
 .subject
 p {
-  font-size: 14px;
   line-height: 1.71;
-  
-  letter-spacing: 0.03em;
 }
 
 .caption
@@ -109,7 +109,6 @@ p {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .item h3 {
@@ -120,7 +119,6 @@ p {
   line-height: 1.18;
   
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .item
@@ -128,36 +126,32 @@ p {
   line-height: 1.18;
   
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .footer-address 
 .link {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
   line-height: 1.71;
-  
-  letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .address a {
   color: #ffffff;
-  font-size: 14px;
   line-height: 1.71;
-  
-  letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 /* Кнопки в портфолио */
 .buttons 
 .btn {
   color: var(--second-color);
+  background-color: #F5F4FA;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
   
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .portfolio h2 {
@@ -172,8 +166,6 @@ p {
 .portfolio p {
   color: var(--main-color);
   line-height: 1.87;
-  
-  letter-spacing: 0.03em;
 }
 
 .nav .link:hover,
